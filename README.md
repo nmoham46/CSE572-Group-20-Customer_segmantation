@@ -137,9 +137,9 @@ We implemented and compared:
 │ └── E_Commerce_Customer_Segmentation_Final.ipynb
 │
 ├── 📁 outputs/
-│ ├── model_comparison.csv
-│ ├── cluster_profile.csv
-│ └── final_customers.csv
+│ ├── final_model_comparison.csv
+│ ├── final_cluster_profile.csv
+│ └── final_best_model_customers.csv
 │
 │
 └── README.md
@@ -150,13 +150,25 @@ We implemented and compared:
 ## 🧪 How to Run
 
 1. Install dependencies:
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
+```
 
 2. Run the notebook:
+```bash
 jupyter notebook
+```
 
 3. Open and run:
-E_Commerce_Customer_Segmentation_Final.ipynb
+```text
+notebooks/E_Commerce_Customer_Segmentation_Final.ipynb
+```
+
+Generated CSV files are saved in the root-level `outputs/` folder:
+
+- `outputs/final_model_comparison.csv`
+- `outputs/final_cluster_profile.csv`
+- `outputs/final_best_model_customers.csv`
 
 ---
 
