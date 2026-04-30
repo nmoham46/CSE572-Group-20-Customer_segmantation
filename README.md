@@ -141,8 +141,6 @@ We implemented and compared:
 │ ├── cluster_profile.csv
 │ └── final_customers.csv
 │
-├── 📁 report/
-│ └── Final_ACM_Report.docx
 │
 └── README.md
 
